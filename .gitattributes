@@ -1,0 +1,7 @@
+# Normalize line endings
+* text=auto
+
+# Explicitly ignore line-ending normalization for dependencies
+node_modules/** -text
+client/node_modules/** -text
+server/node_modules/** -text
