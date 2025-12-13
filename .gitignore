@@ -9,6 +9,7 @@ server/node_modules/   # server dependencies
 # Environment / Sensitive
 # =========================
 .env
+client/.env
 server/.env
 *.local               # local environment overrides
 
