@@ -12,7 +12,7 @@ const App = () => {
   if (loading) return <p className="text-white">Loading...</p>; // wait for checkAuth
 
   return (
-    <div className="bg-[url('./src/assets/bgImage.svg')] bg-contain">
+    <div className="bg-[url('/bgImage.svg')] bg-contain">
       <Toaster />
       <Routes>
         <Route path="/" element={authUser ? <HomePage /> : <Navigate to="/login" />} />
